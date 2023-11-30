@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                font-family: 'Ubuntu', sans-serif;
+                background-color: rgb(5, 5, 45);
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+
+            #main_content_html_js {
+                text-align: center;
+                overflow: auto;
+            }
+
+            button {
+                justify-content: center;
+                background-color: rgb(10, 10, 90);
+                padding: 7px;
+                color: white;
+                font-family: Ubuntu;
+                border: inherit;
+                border-radius: 5px;
+                transition: 0.3s linear;
+                font-size: inherit;
+            }
+            
+            button:hover {
+                background-color: rgb(10, 10, 110);
+                font-weight: 700;
+                color: white;
+                text-indent: 1px;
+                border: 1px solid rgb(10, 10, 150);
+                transition: 0.3s ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main_content_html_js">
+            <i style="font-size: 70px;" class="fa fa-warning"></i>
+            <h2>404 Not Found</h2>
+            <p>The page you attempted to reach isn't avaliable, or was entered incorrectly.</p>
+            <hr style="width: 300px;">
+            <p>Error Code: 404</p>
+            <button onclick="location.href = '/index.html' ">Return Home</button>
+        </div>
+    </body>
+</html>
